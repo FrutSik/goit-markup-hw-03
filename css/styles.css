@@ -28,15 +28,16 @@ h6 {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .header-logo-blue {
@@ -47,6 +48,7 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-menu-list {
@@ -90,16 +92,17 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+
 /* ---------------HEADER-------------- */
 
 /* ---------------HERO-------------- */
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-wapper {
-  padding: 188px 0 292px 0;
 }
 
 .hero-title {
@@ -178,6 +181,10 @@ h6 {
   justify-content: center;
   display: flex;
   margin-bottom: 120px;
+}
+
+.team-avatar {
+  display: block;
 }
 
 .team-item {
@@ -268,6 +275,10 @@ h6 {
   margin-bottom: 48px;
 }
 
+.portfolio-img {
+  display: block;
+}
+
 .content-two {
   margin-bottom: 120px;
 }
@@ -326,7 +337,7 @@ h6 {
 
 /* ---------------FOOTER-------------- */
 
-.conteiner {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
