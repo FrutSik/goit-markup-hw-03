@@ -155,7 +155,7 @@ h6 {
 }
 
 .visually-hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .features-list {
